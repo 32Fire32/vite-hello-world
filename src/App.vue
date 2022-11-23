@@ -6,9 +6,12 @@ import AppHero from './components/AppHero.vue'
 </script>
 
 <template>
-  <AppTitle />
-  <AppHero />
+  <div class="container">
+    <AppTitle />
+    <AppHero />
+  </div>  
 </template>
 
 <style scoped>
+  
 </style>
